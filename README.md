@@ -1,24 +1,11 @@
-# yi-ui
+# yiUI
 
-## Project setup
-```
-yarn install
-```
+## 安装
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+npm install yi-ui -s
 
-### Compiles and minifies for production
-```
-yarn build
-```
+### 使用
 
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+import yiUi from 'yi-ui'
+import 'yi-ui/dist/yi-ui.css'
+Vue.use(yiUi)
