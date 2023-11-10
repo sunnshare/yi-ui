@@ -1,0 +1,19 @@
+{
+  "name": "yi-ui-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "element-ui": "^2.15.14",
+    "highlight.js": "^11.9.0",
+    "sass-loader": "10.1.1",
+    "vuepress": "^1.9.10"
+  },
+  "dependencies": {
+    "core-js": "2"
+  }
+}
